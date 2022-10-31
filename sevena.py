@@ -118,15 +118,15 @@ def looping():
             img = pyautogui.screenshot(region=(958, 538, 2, 2))
             img = np.array(img)
             frame = np.array(img).sum()
-            if frame == 940 or frame == 528 or frame == 260 or frame == 504 or frame == 518 or frame == 520 or frame == 488 or frame == 868 or frame == 1008 or frame == 328 or frame == 220 or frame == 468 or frame == 580 or frame == 588 or frame == 772 or frame == 384 or frame == 828 or frame == 760 or frame == 380 or frame == 796 or frame == 500 or frame == 496 or frame == 804 or frame == 672 or frame == 668 or frame == 590 or frame == 262 or frame == 636 or frame == 508 or frame == 572 or frame == 692 or frame == 816 or frame == 784:
+            if frame == 938 or frame == 939 or frame == 942 or frame == 941 or frame == 940 or frame == 528 or frame == 260 or frame == 504 or frame == 518 or frame == 520 or frame == 488 or frame == 868 or frame == 1008 or frame == 328 or frame == 220 or frame == 468 or frame == 580 or frame == 588 or frame == 772 or frame == 384 or frame == 828 or frame == 760 or frame == 380 or frame == 796 or frame == 500 or frame == 496 or frame == 804 or frame == 672 or frame == 668 or frame == 590 or frame == 262 or frame == 636 or frame == 508 or frame == 572 or frame == 692 or frame == 816 or frame == 784:
                 pyautogui.click()
-                time.sleep(0.45)
+                time.sleep(0.47)
                 print('TriggerBot: Vuruş Yapıldı')
             #print('colorValue: ' + str(frame))
         elif AntiAfk_Status == True:
             AntiAfk_Move()
 
-window.after(100, looping)
+window.after(125, looping)
 window.mainloop()
 
 
